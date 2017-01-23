@@ -49,146 +49,153 @@
 
       <!-- Боковое меню фильтрации начало -->
       <div class="filter-section">
-        <div class="manufacturers">
-            <h2>Производители:</h2>
-            <label>
-                <input type="checkbox" checked>Baxter of California
-            </label>
-            <label>
-                <input type="checkbox">Mr Natty
-            </label>
-            <label>
-                <input type="checkbox" checked>Suavecito
-            </label>
-            <label>
-                <input type="checkbox">Malin+Goetz
-            </label>
-            <label>
-                <input type="checkbox">Murray’s
-            </label>
-            <label>
-                <input type="checkbox" checked>American Crew
-            </label>
-        </div>
+        <form id="main-filtration-form" action="">
+          <div class="manufacturers">
+              <h2>Производители:</h2>
+              <label>
+                  <input type="checkbox" checked>Baxter of California
+              </label>
+              <label>
+                  <input type="checkbox">Mr Natty
+              </label>
+              <label>
+                  <input type="checkbox" checked>Suavecito
+              </label>
+              <label>
+                  <input type="checkbox">Malin+Goetz
+              </label>
+              <label>
+                  <input type="checkbox">Murray’s
+              </label>
+              <label>
+                  <input type="checkbox" checked>American Crew
+              </label>
+          </div>
 
-        <div class="groups-of-goods-filter">
-            <h2>Группы товаров:</h2>
-             <label>
-                <input type="radio" name="shaving accesories" value="1">Бритвенные  принадлежности
-            </label>
-            <label>
-                <input type="radio" name="shaving accesories" value="2">Средства для ухода
-            </label>
-            <label>
-                <input type="radio" name="shaving accesories" value="3">Аксессуары
-            </label>
-        </div>
-
-        <button>
-            Показать
-        </button>
+          <div class="groups-of-goods-filter">
+              <h2>Группы товаров:</h2>
+               <label>
+                  <input type="radio" name="shaving accesories" value="1">Бритвенные  принадлежности
+              </label>
+              <label>
+                  <input type="radio" name="shaving accesories" value="2">Средства для ухода
+              </label>
+              <label>
+                  <input type="radio" name="shaving accesories" value="3">Аксессуары
+              </label>
+          </div>
+          <input type="submit" value="Показать">
+        </form>
       </div>
       <!-- Боковое меню фильтрации конец -->
 
       <!--Каталог товаров начало-->
       <div class="main-goods-catalog">
 
-        <a class="catalog-item-wrapper" href=""> <!-- ОБЕРНУЛ В A ТАК КАК ЮЗЕРУ ДОЛЖНО БЫТЬ УДОБНО ТЫКАТЬ НА ВСЮ ПЛИТКУ А НЕ НА КНОПКУ КУПИТЬ, ЕСЛИ НУЖНО ТОЛЬКО НА КНОПКУ ТО ТОГДА БЕЗ ЭТОГО ТЕГА НАДО БУДЕТ ДЕЛАТЬ -->
-          <div class="image-holder">
+        <div class="catalog-item-wrapper">
+          <a class="image-holder" href="#">
             <img src="http://placehold.it/150x100" alt="catalog-picture" width="220px" height="220px">
+          </a>
+          <h3>
+            <a href="#">Набор для путешествий  «Baxter of California»</a>
+          </h3> 
+          <div class="item-price-container">
+             <div class="item-price">
+              2 900 руб.
+            </div>
+             <a class="purchase-button" href="#">Купить</a>
           </div>
-          <span class="item-name">
-            Набор для путешествий  «Baxter of California»
-          </span> 
-          <div class="item-price">
-            2 900 руб.
-          </div>
-          <button>
-            Купить
-          </button>
-        </a>
+        </div>
 
-        <a class="catalog-item-wrapper" href=""> <!-- ОБЕРНУЛ В A ТАК КАК ЮЗЕРУ ДОЛЖНО БЫТЬ УДОБНО ТЫКАТЬ НА ВСЮ ПЛИТКУ А НЕ НА КНОПКУ КУПИТЬ, ЕСЛИ НУЖНО ТОЛЬКО НА КНОПКУ ТО ТОГДА БЕЗ ЭТОГО ТЕГА НАДО БУДЕТ ДЕЛАТЬ -->
-          <div class="image-holder">
+        <div class="catalog-item-wrapper">
+          <a class="image-holder" href="#">
             <img src="http://placehold.it/150x100" alt="catalog-picture" width="220px" height="220px">
+          </a>
+          <h3>
+            <a href="#">Увлажняющий кондиционер  «Baxter of California»</a>
+          </h3>
+          <div class="item-price-container">
+             <div class="item-price">
+              2 900 руб.
+            </div>
+             <a class="purchase-button" href="#">Купить</a>
           </div>
-          <span class="item-name">
-            Увлажняющий кондиционер  «Baxter of California»
-          </span> 
-          <div class="item-price">
-            2 900 руб.
-          </div>
-          <button>
-            Купить
-          </button>
-        </a>
+        </div>
 
-        <a class="catalog-item-wrapper" href=""> <!-- ОБЕРНУЛ В A ТАК КАК ЮЗЕРУ ДОЛЖНО БЫТЬ УДОБНО ТЫКАТЬ НА ВСЮ ПЛИТКУ А НЕ НА КНОПКУ КУПИТЬ, ЕСЛИ НУЖНО ТОЛЬКО НА КНОПКУ ТО ТОГДА БЕЗ ЭТОГО ТЕГА НАДО БУДЕТ ДЕЛАТЬ -->
-          <div class="image-holder">
+        <div class="catalog-item-wrapper">
+          <a class="image-holder" href="#">
             <img src="http://placehold.it/150x100" alt="catalog-picture" width="220px" height="220px">
+          </a>
+          <h3>
+            <a href="#">Гель для волос «SUAVECITO»</a>
+          </h3>
+          <div class="item-price-container">
+             <div class="item-price">
+              2 900 руб.
+            </div>
+             <a class="purchase-button" href="#">Купить</a>
           </div>
-          <span class="item-name">
-            Гель для волос «SUAVECITO»
-          </span> 
-          <div class="item-price">
-            2 900 руб.
-          </div>
-          <button>
-            Купить
-          </button>
-        </a>
+        </div>
 
-        <a class="catalog-item-wrapper" href=""> <!-- ОБЕРНУЛ В A ТАК КАК ЮЗЕРУ ДОЛЖНО БЫТЬ УДОБНО ТЫКАТЬ НА ВСЮ ПЛИТКУ А НЕ НА КНОПКУ КУПИТЬ, ЕСЛИ НУЖНО ТОЛЬКО НА КНОПКУ ТО ТОГДА БЕЗ ЭТОГО ТЕГА НАДО БУДЕТ ДЕЛАТЬ -->
-          <div class="image-holder">
+        <div class="catalog-item-wrapper">
+          <a class="image-holder" href="#">
             <img src="http://placehold.it/150x100" alt="catalog-picture" width="220px" height="220px">
+          </a>
+          <h3>
+            <a href="#">Глина для укладки волос  «American crew»</a>
+          </h3>
+          <div class="item-price-container">
+             <div class="item-price">
+              2 900 руб.
+            </div>
+             <a class="purchase-button" href="#">Купить</a>
           </div>
-          <span class="item-name">
-            Глина для укладки волос  «American crew»
-          </span> 
-          <div class="item-price">
-            2 900 руб.
-          </div>
-          <button>
-            Купить
-          </button>
-        </a>
+        </div>
 
-        <a class="catalog-item-wrapper" href=""> <!-- ОБЕРНУЛ В A ТАК КАК ЮЗЕРУ ДОЛЖНО БЫТЬ УДОБНО ТЫКАТЬ НА ВСЮ ПЛИТКУ А НЕ НА КНОПКУ КУПИТЬ, ЕСЛИ НУЖНО ТОЛЬКО НА КНОПКУ ТО ТОГДА БЕЗ ЭТОГО ТЕГА НАДО БУДЕТ ДЕЛАТЬ -->
-          <div class="image-holder">
+        <div class="catalog-item-wrapper">
+          <a class="image-holder" href="#">
             <img src="http://placehold.it/150x100" alt="catalog-picture" width="220px" height="220px">
+          </a>
+          <h3>
+            <a href="#">Гель для волос «AMERICAN CREW»</a>
+          </h3>
+          <div class="item-price-container">
+             <div class="item-price">
+              2 900 руб.
+            </div>
+             <a class="purchase-button" href="#">Купить</a>
           </div>
-          <span class="item-name">
-            Гель для волос «AMERICAN CREW»
-          </span> 
-          <div class="item-price">
-            2 900 руб.
-          </div>
-          <button>
-            Купить
-          </button>
-        </a>
+        </div>
 
-        <a class="catalog-item-wrapper" href=""> <!-- ОБЕРНУЛ В A ТАК КАК ЮЗЕРУ ДОЛЖНО БЫТЬ УДОБНО ТЫКАТЬ НА ВСЮ ПЛИТКУ А НЕ НА КНОПКУ КУПИТЬ, ЕСЛИ НУЖНО ТОЛЬКО НА КНОПКУ ТО ТОГДА БЕЗ ЭТОГО ТЕГА НАДО БУДЕТ ДЕЛАТЬ -->
-          <div class="image-holder">
+        <div class="catalog-item-wrapper">
+          <a class="image-holder" href="#">
             <img src="http://placehold.it/150x100" alt="catalog-picture" width="220px" height="220px">
+          </a>
+          <h3>
+            <a href="#">Набор для бритья «Baxter of California»</a>
+          </h3> 
+          <div class="item-price-container">
+             <div class="item-price">
+              2 900 руб.
+            </div>
+             <a class="purchase-button" href="#">Купить</a>
           </div>
-          <span class="item-name">
-            Набор для бритья «Baxter of California»
-          </span> 
-          <div class="item-price">
-            2 900 руб.
-          </div>
-          <button>
-            Купить
-          </button>
-        </a>
+        </div>
 
         <nav>
           <ul>
-            <li>1</li>
-            <li class="active">2</li>
-            <li>3</li>
-            <li>4</li>
+            <li>
+              <a href="#">1</a>
+            </li>
+            <li>
+              <span class="active">2</span>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">4</a>
+            </li>
           </ul>
         </nav>
 
@@ -206,9 +213,17 @@
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <ul>
+            <li>
+              <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+            </li>
+            <li>
+              <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+            </li>
+            <li>
+              <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+            </li>
+          </ul>
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
